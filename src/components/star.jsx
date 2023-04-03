@@ -7,6 +7,5 @@ export default function Star() {
         <path d="M0 0h18v18H0z" fill="none"/>
       </svg>
     )
-
 }
 
