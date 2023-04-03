@@ -10,7 +10,7 @@ export default function Stars({count}) {
     if (!Number.isInteger (count) || count > 5 || count < 1) {
         bool = false
     }
-    const arr = Array.from({ length: count }, (v, k) => k)
+    const arr = Array.from({ length: count }, (a, b) => b)
     return (
         bool && (
         <ul className='card-body-stars'>
@@ -20,5 +20,5 @@ export default function Stars({count}) {
 }
 
 Stars.propTypes = {
-    count: PropTypes.number,
+    count: PropTypes.number
 };
